@@ -565,21 +565,24 @@ div.mobile-container{
   }
   
   
-  .sec-abt-3{
+  #sec-abt-3{
   padding-left:10%;
   padding-top:3%;
-  position: relative;
-  margin-bottom: 50px;
+  position: ;
+  
    padding-right: 0%;
+  }#sec-abt-3 img{
+    width:500px;
+    float: right;
   }
-  .sec-abt-3-Text h1{
+  .sec-abt-3-Text- h1{
       font-weight: bold;
       text-align: left;
       color:black;
       position: relative;
       padding-bottom: 3%;
   }
-  .sec-abt-3-Text{
+  .sec-abt-3-Text-{
       box-sizing: border-box;
       color: black;
       font-size: 18px;
@@ -588,7 +591,7 @@ div.mobile-container{
       font-weight: 100;
       font-family: Arial, Helvetica, sans-serif;
   }
-  .sec-abt-pic1 img{
+  .sec-abt-pic1- img{
   padding-left: 3%;
   width:100%;
   position: relative;
