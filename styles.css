@@ -256,6 +256,7 @@ color: whitesmoke;
   float:right;
   
   background-image: url('./img/background2.jpg');
+  background-size: cover;
   
   }
   #moto-slides2 h1{
@@ -280,7 +281,7 @@ color: whitesmoke;
   
   float:right;
   
-  background-image: url('./img/background3.jpg');
+  background-image: url('./img/background1.jpg');
   background-size: cover;
   
   }
