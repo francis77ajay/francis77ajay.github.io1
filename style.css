@@ -144,7 +144,7 @@ background: #ebe1d8;
     padding: 1%;
 }
 #footer-gci-page{
-    background-image: url(/img/footerbg.png);
+    background-image: url(img/footerbg.png);
     height: auto;
     background-size: cover;
     width: 100%;
@@ -202,7 +202,7 @@ padding-left: 12%;
 
 /*contacts pages*/
 #con-gci-sec1{
-background-image: url('/img/contacts-bg.jpg');
+background-image: url('img/contacts-bg.jpg');
 background-size: cover;
 height: 350px;
 width: 100%;
@@ -498,7 +498,7 @@ padding-top: 3%;
 /*Home Re work*/
 .home-layer1-serv{
 color: aliceblue;
-background-image: url('/img/background5.jpg');
+background-image: url('img/background5.jpg');
 background-size:cover; 
 padding-left:9%;
 padding-right: 6%;
@@ -515,8 +515,9 @@ padding-top: 1%;
     text-align: center;
     margin-left:10%;
     margin-right: 10%;
-    height: 200px;
     padding-top: 5%;
+}#home-serv-cont-boxes a{
+    color: white;
 }
 .home-layer2-serv1{
     padding-top:3%;

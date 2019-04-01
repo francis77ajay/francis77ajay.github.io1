@@ -230,7 +230,7 @@ color: whitesmoke;
   
   float:right;
   
-  background-image: url('./img/background1.jpg');
+  background-image: url('img/background1.jpg');
   
   }
   #moto-slides h1{
@@ -255,7 +255,7 @@ color: whitesmoke;
   
   float:right;
   
-  background-image: url('./img/background2.jpg');
+  background-image: url('img/background2.jpg');
   background-size: cover;
   
   }
@@ -281,7 +281,7 @@ color: whitesmoke;
   
   float:right;
   
-  background-image: url('./img/background1.jpg');
+  background-image: url('img/background1.jpg');
   background-size: cover;
   
   }
@@ -364,7 +364,7 @@ color: whitesmoke;
     position: relative;
   }
   .certificatesgci{
-   background-image: url('/img/background5.jpg');
+   background-image: url('img/background5.jpg');
    background-size: cover;
    
   }
@@ -386,7 +386,7 @@ color: whitesmoke;
 }
 /*footer*/
 .contactfooter{
-  background-image: url('/img/footerbg.png');
+  background-image: url('img/footerbg.png');
   height: 560px;
   background-size: cover;
   color: white;
@@ -534,7 +534,7 @@ div.mobile-container{
 /* About Us page css*/
 
 .sec-abt{
-  background-image: url(/img/background1.jpg);
+  background-image: url(img/background1.jpg);
   background-size: cover;
   width: 100%;
   height: 560px;
@@ -569,7 +569,6 @@ div.mobile-container{
   #sec-abt-3{
   padding-left:10%;
   padding-top:3%;
-  position: ;
   
    padding-right: 0%;
   }#sec-abt-3 img{
@@ -600,7 +599,7 @@ div.mobile-container{
   }
   #sec-abt-misvis{
     
-      background-image: url('/img/sec-4-image.png');
+      background-image: url('img/sec-4-image.png');
       min-height: 500px;
       background-size: cover;
       text-align: center;
