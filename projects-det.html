@@ -271,20 +271,59 @@ x.style.display = "block";
 
 </div>
 
-<div>
-    <div class="container">
-        <h2>Center Mode</h2>
-        <div class="slider center">
-          <div class="clip"><h3><div class="top">top</div><div>1</div><div class="bottom">btm</div></h3></div>
-          <div class="clip"><h3><div class="top">top</div><div>2</div><div class="bottom">btm</div></h3></div>
-          <div class="clip"><h3><div class="top">top</div><div>3</div><div class="bottom">btm</div></h3></div>
-          <div class="clip"><h3><div class="top">top</div><div>4</div><div class="bottom">btm</div></h3></div>
-          <div class="clip"><h3><div class="top">top</div><div>5</div><div class="bottom">btm</div></h3></div>
-          <div class="clip"><h3><div class="top">top</div><div>6</div><div class="bottom">btm</div></h3></div>
-        </div>
+<div class="bottom-slider-pro-deta">
+  <div id="bottom-slider-pro-deta2">
+    <div id="carousel3d">
+        <carousel-3d :perspective="0" :space="500" :display="3" :controls-visible="true" :controls-prev-html="'❬'" :controls-next-html="'&#10093'" :controls-width="30" :controls-height="60" :clickable="true" :autoplay="true" :autoplay-timeout="5000" :height="200" id="bottom-slider-procustom">
+          <slide :index="0">
+              
+            <span class="title"><img src="./img/po1.jpg" alt=""> <h1>2(A) Rig FieldS</h1> </span>
+           <a href="">Click Here</a>
+          </slide>
+          <slide :index="1">
+      
+              <span class="title"><img src="img/po1.jpg" alt=""></span>
+             
+          </slide>
+          <slide :index="2">
+            <span class="title"><img src="img/po1.jpg" alt=""></span>
+         
+          </slide>
+          <slide :index="3">
+            <span class="title"><img src="img/po1.jpg" alt=""></span>
+            
+          </slide>
+          <slide :index="4">
+           <span class="title"><img src="img/po1.jpg" alt=""></span>
+       
+          </slide>
+          <slide :index="5">
+            <span class="title"><img src="img/po1.jpg" alt=""></span>
+           
+          </slide>
+          <slide :index="6">
+            <span class="title"><img src="img/po1.jpg" alt=""></span>
+            
+          </slide>
+          
+        </carousel-3d>
+        
       </div>
+      <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js'></script><script src='https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js'></script>
+      <script >new Vue({
+        el: '#carousel3d',
+        data: {
+          slides: 7
+        },
+        components: {
+          'carousel-3d': Carousel3d.Carousel3d,
+          'slide': Carousel3d.Slide
+        }
+      })
+      //# sourceURL=pen.js
+      </script>
 </div>
-
+</div>
 
 <!--Footer Section-->
 <div class="">
